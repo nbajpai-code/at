@@ -60,6 +60,21 @@ Explore step-by-step guides, architecture diagrams, and mock setups for real-wor
 
 ---
 
+## 🧠 Design Thinking for Workflow Automation
+
+Each workflow above is backed by an extensive **Design Thinking deep-dive** — covering user personas, empathy maps, journey maps, problem statements, ideation matrices, prototype iterations, and test plans.
+
+👉 **[View the full Design Thinking Framework](design-thinking/README.md)**
+
+| Workflow | Design Challenge | Deep-Dive |
+| :--- | :--- | :--- |
+| Lead Enrichment | How might we transform raw form submissions into sales-ready intelligence before a rep even opens Slack? | [View](design-thinking/dt_lead_generation.md) |
+| Customer Support Triage | How might we get customers accurate first-touch responses in under 60 seconds? | [View](design-thinking/dt_customer_support.md) |
+| Multi-Agent Research | How might we let AI agents replicate a professional analyst team's rigor? | [View](design-thinking/dt_multi_agent_research.md) |
+| Code Generator & Tester | How might we create a self-correcting code generation loop with full test coverage? | [View](design-thinking/dt_code_generator.md) |
+
+---
+
 ## 📚 Curated Resources Directory
 
 ### GitHub Repositories
