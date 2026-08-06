@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentic AI & Workflow Automation Hub</title>
+  <meta name="description" content="A comprehensive resource directory and builder playground for agentic AI tools like Zapier, Make, n8n, CrewAI, and Langflow.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="nav-container">
+      <div class="logo" id="logo-btn">
+        <span>🤖</span> Agentic Hub
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#" class="nav-link active" data-target="dashboard-view">Dashboard</a></li>
+          <li><a href="#" class="nav-link" data-target="resources-view">Resource Library</a></li>
+          <li><a href="#" class="nav-link" data-target="workflows-view">Workflows</a></li>
+          <li><a href="#" class="nav-link" data-target="builder-view">Workflow Builder</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main>
+    
+    <!-- Hero Header -->
+    <div class="hero">
+      <h1>Orchestrate <span class="gradient-text">Agentic Workflows</span></h1>
+      <p>A comprehensive developer companion for Zapier, Make, n8n, CrewAI, AutoGen, and Langflow. Discover resources, read guides, and prototype integrations.</p>
+    </div>
+
+    <!-- VIEW 1: DASHBOARD -->
+    <section id="dashboard-view" class="view-section active">
+      <h2 class="section-title">🛠️ Core Platforms & Frameworks</h2>
+      <div class="dashboard-grid" id="tools-container">
+        <!-- Loaded dynamically from data.js -->
+      </div>
+
+      <h2 class="section-title" style="margin-top: 4rem;">📋 Production-Ready Workflows</h2>
+      <div class="dashboard-grid" id="workflows-summary-container">
+        <!-- Loaded dynamically from data.js -->
+      </div>
+    </section>
+
+    <!-- VIEW 2: RESOURCE LIBRARY -->
+    <section id="resources-view" class="view-section">
+      <h2 class="section-title">📚 Curated Resources Library</h2>
+      
+      <!-- Search & Filters -->
+      <div class="glass-card search-filter-panel">
+        <div class="search-wrapper">
+          <input type="text" class="search-input" id="search-bar" placeholder="Search by title, tool, keyword, or tag...">
+        </div>
+        
+        <div class="filters-container">
+          <span class="filter-label">Media Type:</span>
+          <button class="filter-btn active" data-filter-type="media" data-value="all">All</button>
+          <button class="filter-btn" data-filter-type="media" data-value="GitHub">GitHub</button>
+          <button class="filter-btn" data-filter-type="media" data-value="YouTube">YouTube</button>
+          <button class="filter-btn" data-filter-type="media" data-value="Article">Articles</button>
+          <button class="filter-btn" data-filter-type="media" data-value="Blog">Blogs</button>
+        </div>
+
+        <div class="filters-container">
+          <span class="filter-label">Tool / Stack:</span>
+          <button class="filter-btn active" data-filter-type="tool" data-value="all">All</button>
+          <button class="filter-btn" data-filter-type="tool" data-value="Zapier">Zapier</button>
+          <button class="filter-btn" data-filter-type="tool" data-value="Make">Make.com</button>
+          <button class="filter-btn" data-filter-type="tool" data-value="n8n">n8n</button>
+          <button class="filter-btn" data-filter-type="tool" data-value="Langflow">Langflow</button>
+          <button class="filter-btn" data-filter-type="tool" data-value="CrewAI">CrewAI</button>
+          <button class="filter-btn" data-filter-type="tool" data-value="AutoGen">AutoGen</button>
+        </div>
+      </div>
+
+      <!-- Resource Grid -->
+      <div class="resource-grid" id="resources-container">
+        <!-- Loaded dynamically from data.js -->
+      </div>
+    </section>
+
+    <!-- VIEW 3: DETAILED WORKFLOWS LIST -->
+    <section id="workflows-view" class="view-section">
+      <h2 class="section-title">🚀 Step-by-Step Workflow Walkthroughs</h2>
+      <div class="dashboard-grid" id="workflows-detailed-container">
+        <!-- Loaded dynamically from data.js -->
+      </div>
+    </section>
+
+    <!-- VIEW 4: INTERACTIVE WORKFLOW BUILDER -->
+    <section id="builder-view" class="view-section">
+      <h2 class="section-title">📐 Interactive Workflow Visualizer</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Click or drag node templates from the left panel onto the canvas workspace to design your pipeline, customize node parameters, and export the resulting configuration schema.
+      </p>
+
+      <div class="builder-layout">
+        <!-- Left Sidebar: Nodes Palette -->
+        <div class="glass-card builder-sidebar">
+          <div class="sidebar-title">⚡ Triggers</div>
+          <div class="node-template-list">
+            <div class="node-template" draggable="true" data-node-type="Trigger" data-node-name="Webhook Trigger" data-icon="🔗">
+              <div class="node-icon">🔗</div>
+              <div class="node-template-details">
+                <h4>Webhook Trigger</h4>
+                <p>Listen for POST/GET request</p>
+              </div>
+            </div>
+            <div class="node-template" draggable="true" data-node-type="Trigger" data-node-name="Schedule Timer" data-icon="⏱️">
+              <div class="node-icon">⏱️</div>
+              <div class="node-template-details">
+                <h4>Schedule Timer</h4>
+                <p>Run cron or interval job</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-title" style="margin-top: 1.5rem;">🧠 AI Agents / LLMs</div>
+          <div class="node-template-list">
+            <div class="node-template" draggable="true" data-node-type="Agent" data-node-name="AI Router" data-icon="🔀">
+              <div class="node-icon">🔀</div>
+              <div class="node-template-details">
+                <h4>AI Router</h4>
+                <p>Direct flows dynamically</p>
+              </div>
+            </div>
+            <div class="node-template" draggable="true" data-node-type="Agent" data-node-name="LLM Context Agent" data-icon="🧠">
+              <div class="node-icon">🧠</div>
+              <div class="node-template-details">
+                <h4>LLM Context Agent</h4>
+                <p>Process with custom prompt</p>
+              </div>
+            </div>
+            <div class="node-template" draggable="true" data-node-type="Agent" data-node-name="Data Enricher" data-icon="🔍">
+              <div class="node-icon">🔍</div>
+              <div class="node-template-details">
+                <h4>Data Enricher</h4>
+                <p>AI search & scrape lookup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-title" style="margin-top: 1.5rem;">📲 Actions / Integrations</div>
+          <div class="node-template-list">
+            <div class="node-template" draggable="true" data-node-type="Action" data-node-name="Slack Alert" data-icon="💬">
+              <div class="node-icon">💬</div>
+              <div class="node-template-details">
+                <h4>Slack Alert</h4>
+                <p>Post message to channel</p>
+              </div>
+            </div>
+            <div class="node-template" draggable="true" data-node-type="Action" data-node-name="CRM Database Log" data-icon="💾">
+              <div class="node-icon">💾</div>
+              <div class="node-template-details">
+                <h4>CRM Database Log</h4>
+                <p>Write to Sheets/SQL/Hubspot</p>
+              </div>
+            </div>
+            <div class="node-template" draggable="true" data-node-type="Action" data-node-name="Vector DB Push" data-icon="🔼">
+              <div class="node-icon">🔼</div>
+              <div class="node-template-details">
+                <h4>Vector DB Push</h4>
+                <p>Upsert text to Pinecone</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Canvas Grid -->
+        <div class="builder-canvas-wrapper">
+          <div class="canvas-toolbar">
+            <div class="toolbar-title">
+              🏗️ Canvas Workspace <span style="font-size: 0.8rem; color: var(--text-muted);">(Drag templates here or click them)</span>
+            </div>
+            <div class="toolbar-buttons">
+              <button class="btn-secondary" id="clear-canvas-btn">Clear Canvas</button>
+              <button class="btn-primary" id="export-json-btn">Export Configuration</button>
+            </div>
+          </div>
+          <div class="canvas-area" id="canvas-workspace">
+            <!-- Dynamically dropped nodes end up here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL: Export Output -->
+  <div class="modal-overlay" id="export-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>📄 Workflow Configuration Schema</h3>
+        <button class="modal-close" id="close-modal-btn">&times;</button>
+      </div>
+      <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">
+        Here is the JSON representation of your designed workflow. You can copy this structure to document or import in agentic platforms.
+      </p>
+      <pre class="code-preview" id="modal-code-block"></pre>
+      <div style="text-align: right;">
+        <button class="btn-primary" id="copy-json-btn">Copy to Clipboard</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
