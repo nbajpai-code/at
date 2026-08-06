@@ -57,5 +57,5 @@ agent.run("Find the latest email from John on Gmail, summarize it, and post it t
 - **Official Guides:** [Zapier AI Help Center](https://zapier.com/help/create/customize/introducing-zapier-ai-actions)
 - **Zapier Central:** [Build AI Assistants with Custom Data](https://zapier.com/central)
 - **YouTube Tutorials:**
-  - *Liam Ottley:* [Zapier AI Chatbot Tutorial - Complete Setup Guide](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+  - *Liam Ottley:* [Zapier AI Chatbot Tutorial - Complete Setup Guide](https://www.youtube.com/watch?v=1F_O8t6-UjM)
   - *Alara:* [How to Connect OpenAI Assistants directly to Zapier](https://zapier.com/blog/)

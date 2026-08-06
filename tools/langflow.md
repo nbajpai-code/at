@@ -62,5 +62,5 @@ print(result[0].outputs[0].results["message"].text)
 - **GitHub Repository:** [langflow-ai/langflow](https://github.com/langflow-ai/langflow)
 - **Official Docs:** [Langflow Documentation](https://docs.langflow.org/)
 - **YouTube Tutorials:**
-  - *Prompt Engineering:* [Langflow Tutorial - Build Complex AI Apps Visually](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-  - *Langflow:* [Custom Python Components in Langflow Deep Dive](https://www.youtube.com/)
+  - *Prompt Engineering:* [Langflow Tutorial - Build Complex AI Apps Visually](https://www.youtube.com/watch?v=uT9Lg5wI1z0)
+  - *Langflow Official:* [Langflow Quickstart Guide](https://www.youtube.com/@langflow-ai)

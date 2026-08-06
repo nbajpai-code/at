@@ -70,10 +70,10 @@ Explore step-by-step guides, architecture diagrams, and mock setups for real-wor
 - [Flowise](https://github.com/FlowiseAI/Flowise) - Drag & drop UI to build customized LLM flows.
 
 ### YouTube Channels & Tutorials
-- **Liam Ottley:** Leading creator on AI Automation Agencies (AAA), covers Zapier AI, Make.com, and n8n integrations.
-- **n8n Official Channel:** Video series on building AI Agents, connecting vector databases, and using sub-workflows.
-- **Prompt Engineering:** Visual tutorials on Langflow, Flowise, CrewAI multi-agent programming, and local LLMs.
-- **Matthew Berman:** In-depth reviews and step-by-step installation guides for AutoGen, CrewAI, and other open-source frameworks.
+- **[Liam Ottley](https://www.youtube.com/@LiamOttley):** Leading creator on AI Automation Agencies (AAA), covers Zapier AI, Make.com, and n8n integrations.
+- **[n8n Official Channel](https://www.youtube.com/@n8n-io):** Video series on building AI Agents, connecting vector databases, and using sub-workflows.
+- **[Prompt Engineering](https://www.youtube.com/@PromptEngineering):** Visual tutorials on Langflow, Flowise, CrewAI multi-agent programming, and local LLMs.
+- **[Matthew Berman](https://www.youtube.com/@MatthewBerman):** In-depth reviews and step-by-step installation guides for AutoGen, CrewAI, and other open-source frameworks.
 
 ### Knowledge Base & Documentation
 - [Zapier AI Actions Help Center](https://zapier.com/help/create/customize/introducing-zapier-ai-actions) - Guide on letting LLMs run Zapier triggers and actions programmatically.

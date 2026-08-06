@@ -50,4 +50,4 @@ graph TD
 - **Make Community:** [Official Make Community Forum](https://community.make.com/)
 - **YouTube Tutorials:**
   - *Make:* [Getting Started with Make - Full Course](https://www.youtube.com/playlist?list=PL3G42bHlC-W2v1Kz320UqUeS_QW1h9wK3)
-  - *Liam Ottley:* [Make.com vs Zapier: Which is best for AI Automation?](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+  - *Liam Ottley:* [Make.com vs Zapier: Which is best for AI Automation?](https://www.youtube.com/watch?v=9_t9j6h_qgQ)

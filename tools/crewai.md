@@ -90,5 +90,5 @@ print(result)
 - **GitHub Repository:** [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)
 - **Official Docs:** [CrewAI Documentation](https://docs.crewai.com/)
 - **YouTube Tutorials:**
-  - *Matthew Berman:* [CrewAI Crash Course - Complete Beginners Guide](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-  - *Brandon Hancock:* [Build a Multi-Agent AI App with CrewAI and LangChain](https://www.youtube.com/)
+  - *Matthew Berman:* [CrewAI Crash Course - Complete Beginners Guide](https://www.youtube.com/watch?v=sPzc6hMg7yY)
+  - *Brandon Hancock:* [Build a Multi-Agent AI App with CrewAI and LangChain](https://www.youtube.com/watch?v=iZ952s5wTKo)

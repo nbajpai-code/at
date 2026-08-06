@@ -121,7 +121,7 @@ const resourcesData = [
     title: "Liam Ottley: How to Build AI Agents in n8n",
     type: "YouTube",
     tool: "n8n",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    url: "https://www.youtube.com/watch?v=0w1vG7gG0y8",
     description: "Comprehensive step-by-step video guide for building production-grade AI agents using n8n and OpenAI.",
     tags: ["Tutorial", "Beginner Friendly", "AI Agency", "Integration"]
   },
@@ -129,7 +129,7 @@ const resourcesData = [
     title: "Prompt Engineering: Langflow Custom Python Components",
     type: "YouTube",
     tool: "Langflow",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    url: "https://www.youtube.com/watch?v=uT9Lg5wI1z0",
     description: "Deep dive video tutorial on creating custom nodes, loading files, and building dynamic API integrations inside Langflow.",
     tags: ["Python Coding", "Advanced", "Visual Builder", "Local Setup"]
   },
@@ -137,7 +137,7 @@ const resourcesData = [
     title: "Matthew Berman: CrewAI Crash Course for Multi-Agent Teams",
     type: "YouTube",
     tool: "CrewAI",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    url: "https://www.youtube.com/watch?v=sPzc6hMg7yY",
     description: "A complete walkthrough showing how to program CrewAI agents, assign tasks, connect custom web scraping tools, and save output.",
     tags: ["Crash Course", "Python", "Multi-Agent", "Web Search"]
   },

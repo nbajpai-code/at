@@ -60,4 +60,4 @@ graph LR
 - **GitHub Repository:** [n8n-io/n8n](https://github.com/n8n-io/n8n)
 - **YouTube Tutorials:**
   - *n8n Official:* [Building AI Agents in n8n - Step by Step](https://www.youtube.com/@n8n-io)
-  - *Prompt Engineering:* [Self-Hosting n8n & Building your first local RAG Pipeline](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+  - *Prompt Engineering:* [Self-Hosting n8n & Building your first local RAG Pipeline](https://www.youtube.com/watch?v=p6AunD8yTzw)
